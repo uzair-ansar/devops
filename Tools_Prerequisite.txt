@@ -1,25 +1,50 @@
-#1. Chocolaty
+#1. Chocolatey
   link: https://chocolatey.org/install (Windows)
+  Pacakage download link: https://community.chocolatey.org/packages
   Steps to install chocolaty on your windows system
     - Open PowerShell as administrator
     - follow the steps mentioned in this link: link: https://chocolatey.org/install
+
 #2. Download virtualbox
-  - Open PowerShell
-  - Visit pacakges page of Chocolaty using link: https://community.chocolatey.org/packages/
+  - Open PowerShell```
+  - Visit pacakges page of Chocolatey using link: https://community.chocolatey.org/packages/
   - Search virtalbox (using search box)
   - Copy the command and execute in your PowerShell. Example: choco install virtualbox
+  - Install command: choco install virtualbox -y
+  - Uninstall command: choco uninstall virtualbox
+
 #3. Download Vagrant
   - Follow points steps given in step 2 (above).
-    - Command: choco install vagrant --version=2.3.7 -y
-#4. Download Git (GitBash)
+    - Command: choco install vagrant --version=2.3.7 -y or install vagrant
+    - Uninstall command: choco uninstall vagrant
+
+#4. Download Git
   - Command: choco install git -y
+  - Uninstall command: choco uninstall git
+
 #5. Download JDK (Java)
-  - choco install correctto11jdk -y
+  - Document link: https://community.chocolatey.org/packages/corretto11jdk
+  - choco install correctto11jdk -y or choco install corretto11jdk
+  - Unisntall command: choco uninstall corretto11jdk
+
 #6. Download maven
-  - choco install maven -y
+  - Document link: https://community.chocolatey.org/packages/maven
+  - Install command: choco install maven -y
+  - Uninstall command: choco uninstall maven
+
 #7. Download AWS CLI
-  - choco install awscli -y
+  - Document link: https://community.chocolatey.org/packages/awscli#install
+  - Install command: choco install awscli -y
+  - Uninstall command: choco uninstall awscli
+
 #8. Download vscode
-  - choco install vscode -y
+  - Document link: https://community.chocolatey.org/packages/vscode
+  - Install command: choco install vscode -y
+  - Uninstall command: choco uninstall vscode
+
 #9. Download sublime
-  - choco install sublimetext3.app -y
+  - Document link: https://community.chocolatey.org/packages/SublimeText3.app
+  - Install command: choco install sublimetext3.app -y
+  - Uninstall command: choco uninstall sublimetext3.app
+
+Note: all these install and uninstall commands you need to execute or run in your PowerShell as administrator.
