@@ -1,0 +1,25 @@
+1. Chocolaty
+  link: https://chocolatey.org/install (Windows)
+  Steps to install chocolaty on your windows system
+    - Open PowerShell as administrator
+    - follow the steps mentioned in this link: link: https://chocolatey.org/install
+2. Download virtualbox
+  - Open PowerShell
+  - Visit pacakges page of Chocolaty using link: https://community.chocolatey.org/packages/
+  - Search virtalbox (using search box)
+  - Copy the command and execute in your PowerShell. Example: choco install virtualbox
+3. Download Vagrant
+  - Follow points steps given in step 2 (above).
+    - Command: choco install vagrant --version=2.3.7 -y
+4. Download Git (GitBash)
+  - Command: choco install git -y
+5. Download JDK (Java)
+  - choco install correctto11jdk -y
+6. Download maven
+  - choco install maven -y
+7. Download AWS CLI
+  - choco install awscli -y
+8. Download vscode
+  - choco install vscode -y
+9. Download sublime
+  - choco install sublimetext3.app -y
