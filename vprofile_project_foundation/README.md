@@ -43,6 +43,9 @@
 - Vagrant tool
 - Virtual box
 - GitBash
+
+  ![image](https://github.com/uzair-ansar/devops/assets/146664651/350e5519-7e5b-413d-901f-9f5e43497492)
+
   
 
 # Prerequisites
