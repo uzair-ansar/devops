@@ -48,6 +48,28 @@ OSI Model -> This communication model is called an Open System Interconnection O
 # OSI Model
 ![image](https://github.com/uzair-ansar/devops/assets/146664651/cf8576f8-e685-469e-b459-52725542e85d)
 
+![image](https://github.com/user-attachments/assets/bf8862f1-385a-4369-a30f-e8213e351d8d)
 
+- Application: To allow access to network
+- Presentation: To translate, encypt and compress data
+- Session: To establish, manage, and terminate sessions
+- Transport: To provide reliable process-to-process message delivery and error  recovery
+- Network: To move packets from source to destination to provide internetworking
+- Datalink: To organize bits into frames; to provide hop-tohop delivery
+- Physical: To transit bits over a medium; to provide mechanical and electrical specifications
 
+# Classification of network by Geography
+- LAN: Local Area Network (in a room)
+- WAN: Wide Area Network (far, far away, hosted somewhere, internet)
+- MAN: Metropolitan Area Network (Municipality, Metro train)
+- CAN: Campus Area Network (College campus, office campus)
+- PAN: Personal Area Network (Bluetooth, hotspot)
 
+# Switches
+- Facilitate the sharing of resources by connecting together all the devices, including computers, printers, and servers, in a small business network
+- Example: Like your WiFi router, there's a switch inside that, used to create local area network
+
+# Router
+- As switch connects multiple computers together, router connects multiple network together
+- Router receives and sends data on computer network
+- In CAN, you have one building where you have a switch and some computers connected to it and then you have a second building where you have another switch, if you want to enable communication between these switches or maybe computer from building one to communicate to computer in building two, so there's two different netwoek. You want to connect both network together you need the router.
